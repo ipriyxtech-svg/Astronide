@@ -19,7 +19,7 @@ function Model({ mouse }) {
     }
   });
 
-  return <primitive ref={ref} object={scene} scale={2} />;
+  return <primitive ref={ref} object={scene} scale={1.5} />;
 }
 
 export default function Product3D() {
