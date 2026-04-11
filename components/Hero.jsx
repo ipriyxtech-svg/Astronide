@@ -1,11 +1,10 @@
+import Product3D from "./Product3D";
+import StarsBackground from "./StarsBackground";
+
 export default function Hero() {
   return (
-    <section
-      className="relative min-h-screen flex flex-col justify-center items-center 
-      bg-gradient-to-b from-white via-gray-200 to-white 
-      dark:from-black dark:via-gray-900 dark:to-black 
-      text-black dark:text-white overflow-hidden px-4"
-    >
+    <section className="relative h-screen overflow-hidden flex flex-col justify-center items-center px-4">
+
       <StarsBackground />
 
       {/* Glow */}
@@ -24,9 +23,10 @@ export default function Hero() {
       </p>
 
       {/* 3D Model */}
-      <div className="mt-6 w-full flex justify-center items-center z-10">
+      <div className="mt-4 w-full flex justify-center items-center z-10">
         <Product3D />
       </div>
+
     </section>
   );
 }

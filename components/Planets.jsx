@@ -35,9 +35,9 @@ function Planet({ position, color, size = 1, speed = 0.5 }) {
 export default function Planets() {
   return (
     <>
-      <Planet position={[0, 0, -5]} color="#8b5cf6" size={2.5} speed={0.5} />
-      <Planet position={[4, 2, -7]} color="#3b82f6" size={2} speed={0.7} />
-      <Planet position={[-4, -2, -6]} color="#ec4899" size={1.8} speed={1} />
+      <Planet position={[0, -1, -4]} color="#8b5cf6" size={2} speed={0.5} />
+      <Planet position={[4, 1, -6]} color="#3b82f6" size={1.5} speed={1} />
+      <Planet position={[-4, -1, -5]} color="#ec4899" size={1.3} speed={1.2} />
     </>
   );
 }
