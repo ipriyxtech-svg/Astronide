@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <ThemeToggle />
       <Hero />
-      {/*<Features />*/}
+      
     </>
   );
 }
